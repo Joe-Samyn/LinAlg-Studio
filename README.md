@@ -1,2 +1,2 @@
-# SOLS
-Simple single feature ordinary least squares regression written from scratch in Python and C. 
+# LinAlg-Studio
+A desktop application to help learn, understand, and visualize Linear Algebra concepts. 
