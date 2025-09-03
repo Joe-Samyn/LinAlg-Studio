@@ -1,5 +1,5 @@
 import unittest
-from sols import Vector2
+from linalg import Vector2
 
 class TestVector2(unittest.TestCase):
 
@@ -13,4 +13,11 @@ class TestVector2(unittest.TestCase):
         self.assertEqual(vector, Vector2(2, 3))
 
     def test_createZeroVector(self):
-        pass
+        # arrange
+        exp = Vector2(0, 0)
+
+        # act
+        vector = Vector2.zero()
+
+        # assert
+        self.assertEqual(exp, vector)

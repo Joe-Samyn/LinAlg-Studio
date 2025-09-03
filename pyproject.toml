@@ -1,0 +1,16 @@
+[project]
+name = "LinAlg-Studio"
+version = "0.0.1"
+description = "A desktop application to help learn and visualize linear algebra concepts"
+readme = "README.md"
+requires-python = ">= 3.12"
+authors = [
+    { name = "Joe Samyn", email = "joseph.j.samyn@gmail.com" }
+]
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tools.setuptools.packages.find]
+where = ["src"]
